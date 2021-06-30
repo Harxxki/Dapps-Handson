@@ -1,0 +1,329 @@
+{
+  "contractName": "HelloSolidity",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "get",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"get\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/hmori/dev/hmori/Dapps-Handson/truffle-project/contracts/HelloSolidity.sol\":\"HelloSolidity\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/hmori/dev/hmori/Dapps-Handson/truffle-project/contracts/HelloSolidity.sol\":{\"keccak256\":\"0x7ddf7b9e55b5cfbf636b723fcfccd19193fd97d22e8b35edbfd93ce90600c2bf\",\"urls\":[\"bzz-raw://ffa5b7db484fb89ebd42179f84faac2b784fb9d7eb742e01d1306708eca14e63\",\"dweb:/ipfs/QmSXNU4gryioGZr39N6eBRYLoERNGxCcf4NQB98BXELhT7\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5061011d806100206000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80636d4ce63c14602d575b600080fd5b603360ab565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101560715780820151818401526020810190506058565b50505050905090810190601f168015609d5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60606040518060400160405280600f81526020017f48656c6c6f20536f6c696469747921000000000000000000000000000000000081525090509056fea265627a7a72315820689c07e52c5fa7fbf5d89d94b22b9b2998ddfa8c2212c231a388dc6a6c71262864736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80636d4ce63c14602d575b600080fd5b603360ab565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101560715780820151818401526020810190506058565b50505050905090810190601f168015609d5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60606040518060400160405280600f81526020017f48656c6c6f20536f6c696469747921000000000000000000000000000000000081525090509056fea265627a7a72315820689c07e52c5fa7fbf5d89d94b22b9b2998ddfa8c2212c231a388dc6a6c71262864736f6c63430005100032",
+  "sourceMap": "66:115:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:115:0;;;;;;;",
+  "deployedSourceMap": "66:115:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:115:0;;;;;;;;;;;;;;;;;;;93:86;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;93:86:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;129:13;150:24;;;;;;;;;;;;;;;;;;;93:86;:::o",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract HelloSolidity {\n  function get() public pure returns (string memory) {\n    return \"Hello Solidity!\";\n  }\n}\n",
+  "sourcePath": "/Users/hmori/dev/hmori/Dapps-Handson/truffle-project/contracts/HelloSolidity.sol",
+  "ast": {
+    "absolutePath": "/Users/hmori/dev/hmori/Dapps-Handson/truffle-project/contracts/HelloSolidity.sol",
+    "exportedSymbols": {
+      "HelloSolidity": [
+        10
+      ]
+    },
+    "id": 11,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 10,
+        "linearizedBaseContracts": [
+          10
+        ],
+        "name": "HelloSolidity",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 8,
+              "nodeType": "Block",
+              "src": "144:35:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "hexValue": "48656c6c6f20536f6c696469747921",
+                    "id": 6,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "string",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "157:17:0",
+                    "subdenomination": null,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_stringliteral_d8e5e27add52d5b04f242c1e9c4a85513bdc4543af222d639e656394d9ad36a6",
+                      "typeString": "literal_string \"Hello Solidity!\""
+                    },
+                    "value": "Hello Solidity!"
+                  },
+                  "functionReturnParameters": 5,
+                  "id": 7,
+                  "nodeType": "Return",
+                  "src": "150:24:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 9,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "get",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "105:2:0"
+            },
+            "returnParameters": {
+              "id": 5,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 9,
+                  "src": "129:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 3,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "129:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "128:15:0"
+            },
+            "scope": 10,
+            "src": "93:86:0",
+            "stateMutability": "pure",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 11,
+        "src": "66:115:0"
+      }
+    ],
+    "src": "32:150:0"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/Users/hmori/dev/hmori/Dapps-Handson/truffle-project/contracts/HelloSolidity.sol",
+      "exportedSymbols": {
+        "HelloSolidity": [
+          10
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".22",
+            "<",
+            "0.9",
+            ".0"
+          ]
+        },
+        "id": 1,
+        "name": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            10
+          ],
+          "name": "HelloSolidity",
+          "scope": 11
+        },
+        "children": [
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "get",
+              "scope": 10,
+              "stateMutability": "pure",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 2,
+                "name": "ParameterList",
+                "src": "105:2:0"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "scope": 9,
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "type": "string",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "string",
+                          "type": "string"
+                        },
+                        "id": 3,
+                        "name": "ElementaryTypeName",
+                        "src": "129:6:0"
+                      }
+                    ],
+                    "id": 4,
+                    "name": "VariableDeclaration",
+                    "src": "129:13:0"
+                  }
+                ],
+                "id": 5,
+                "name": "ParameterList",
+                "src": "128:15:0"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "functionReturnParameters": 5
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "argumentTypes": null,
+                          "hexvalue": "48656c6c6f20536f6c696469747921",
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "subdenomination": null,
+                          "token": "string",
+                          "type": "literal_string \"Hello Solidity!\"",
+                          "value": "Hello Solidity!"
+                        },
+                        "id": 6,
+                        "name": "Literal",
+                        "src": "157:17:0"
+                      }
+                    ],
+                    "id": 7,
+                    "name": "Return",
+                    "src": "150:24:0"
+                  }
+                ],
+                "id": 8,
+                "name": "Block",
+                "src": "144:35:0"
+              }
+            ],
+            "id": 9,
+            "name": "FunctionDefinition",
+            "src": "93:86:0"
+          }
+        ],
+        "id": 10,
+        "name": "ContractDefinition",
+        "src": "66:115:0"
+      }
+    ],
+    "id": 11,
+    "name": "SourceUnit",
+    "src": "32:150:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xB7AC107628ed7D87fFd04d4B8F76d0BC2C07A727",
+      "transactionHash": "0x5082d49408729187c15e6e39f65e18c36ee5ad8416fa394089a054f0b30beb28"
+    }
+  },
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-06-30T11:50:24.224Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
